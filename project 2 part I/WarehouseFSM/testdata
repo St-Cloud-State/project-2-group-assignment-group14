@@ -1,0 +1,595 @@
+Script started on Sat Nov  8 22:28:00 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                                                       
+ 
+
+[0m[27m[24m[Jsagarneupane@Mac project 2 part I % [K[?2004h[7mjavac *.java WarehouseFSM/*.java[27m[32D[27mj[27ma[27mv[27ma[27mc[27m [27m*[27m.[27mj[27ma[27mv[27ma[27m [27mW[27ma[27mr[27me[27mh[27mo[27mu[27ms[27me[27mF[27mS[27mM[27m/[27m*[27m.[27mj[27ma[27mv[27m a[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                       
+ 
+
+[0m[27m[24m[Jsagarneupane@Mac project 2 part I % [K[?2004h[7mjava -cp .:WarehouseFSM WarehouseFSM[27m[36D[27mj[27ma[27mv[27ma[27m [27m-[27mc[27mp[27m [27m.[27m:[27mW[27ma[27mr[27me[27mh[27mo[27mu[27ms[27me[27mF[27mS[27mM[27m [27mW[27ma[27mr[27me[27mh[27mo[27mu[27ms[27me[27mF[27mS[27m M[?2004l
+
+=== Warehouse FSM (Part I) ===
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 1
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 1
+Client ID: C1
+Name: Sagar Neupane
+Address: Saint clpu  oud
+Added client C1
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 1
+Client ID: Matthew Mokoro              C2
+Name: Matthew Mokoro
+Address: Minneapolis
+Added client C2
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 1
+Client ID: C3
+Name: chide ubem okooyo   yo
+Address: waitepark
+Added client C3
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 1
+Client ID: C4
+Name: Darpan taa   R Ta,amg    mang
+Address: Saul   k rapids
+Added client C4
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 1
+Client ID: C5
+Name: Srija  n Adhikari
+Address: Texas
+Added client C5
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 3
+Client[ID=C1, Name=Sagar Neupane, Address=Saint cloud, Balance=0.00]
+Client[ID=C2, Name=Matthew Mokoro, Address=Minneapolis, Balance=0.00]
+Client[ID=C3, Name=chidubem okoyo, Address=waitepark, Balance=0.00]
+Client[ID=C4, Name=Darpan Tamang, Address=Sauk rapids, Balance=0.00]
+Client[ID=C5, Name=Srijan Adhikari, Address=Texas, Balance=0.00]
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 4
+Clients with outstanding balance (> 0):
+  (none)
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 2
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 1
+Product ID: P1
+Name: Mouse
+Unit price: 1
+Quantity in stock: 10
+Added product P1
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 1
+Product ID: P2
+Name: Keyboard
+Unit price: 2
+Quantity in stock: 20
+Added product P2
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 1
+Product ID: P3
+Name: Monitors
+Unit price: 3
+Quantity in stock: 30
+Added product P3
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 1
+Product ID: P4
+Name: Cjaris\       key   watch
+Unit price: 4
+Quantity in stock: 40
+Added product P4
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 1
+Product ID: P5
+Name: perfume
+Unit price: 5
+Quantity in stock: 50
+Added product P5
+
+-- Manager Menu --
+1) Add product
+2) Display waitlist for a product
+3) Receive a shipment
+4) Become a Clerk
+5) Logout
+Choice: 4
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 2
+Product[ID=P1, Name=Mouse, Price=1.00, Stock=10, Waitlist=0]
+Product[ID=P2, Name=Keyboard, Price=2.00, Stock=20, Waitlist=0]
+Product[ID=P3, Name=Monitors, Price=3.00, Stock=30, Waitlist=0]
+Product[ID=P4, Name=watch, Price=4.00, Stock=40, Waitlist=0]
+Product[ID=P5, Name=perfume, Price=5.00, Stock=50, Waitlist=0]
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 6
+Client ID: C1
+
+-- Client Menu (Client: C1) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P1
+Quantity: 5
+Added/updated wishlist.
+
+-- Client Menu (Client: C1) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P3
+Quantity: 5
+Added/updated wishlist.
+
+-- Client Menu (Client: C1) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P5
+Quantity: 5
+Added/updated wishlist.
+
+-- Client Menu (Client: C1) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 5
+Wishlist for Sagar Neupane:
+  WishlistItem[Product=P1, Qty=5]
+  WishlistItem[Product=P3, Qty=5]
+  WishlistItem[Product=P5, Qty=5]
+
+-- Client Menu (Client: C1) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 7
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 3
+Enter Client ID: C2
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P1
+Quantity: 7
+Added/updated wishlist.
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P2
+Quantity: 7
+Added/updated wishlist.
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P4
+Quantity: 7
+Added/updated wishlist.
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 5
+Wishlist for Matthew Mokoro:
+  WishlistItem[Product=P1, Qty=7]
+  WishlistItem[Product=P2, Qty=7]
+  WishlistItem[Product=P4, Qty=7]
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 3
+Enter Client ID: C3
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P1
+Quantity: 7 6
+Added/updated wishlist.
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P2
+Quantity: 6
+Added/updated wishlist.
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 4
+Product ID: P5
+Quantity: 6
+Added/updated wishlist.
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 5
+Wishlist for chidubem okoyo:
+  WishlistItem[Product=P1, Qty=6]
+  WishlistItem[Product=P2, Qty=6]
+  WishlistItem[Product=P5, Qty=6]
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 3
+Enter Client ID: c C2
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 6
+Fulfilled 7 of P1 for C2; charged 7.00
+Fulfilled 7 of P2 for C2; charged 14.00
+Fulfilled 7 of P4 for C2; charged 28.00
+Order processing complete for C2
+
+-- Client Menu (Client: C2) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 1
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 4
+Clients with outstanding balance (> 0):
+  Client[ID=C2, Name=Matthew Mokoro, Address=Minneapolis, Balance=49.00]
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 3
+Client[ID=C1, Name=Sagar Neupane, Address=Saint cloud, Balance=0.00]
+Client[ID=C2, Name=Matthew Mokoro, Address=Minneapolis, Balance=49.00]
+Client[ID=C3, Name=chidubem okoyo, Address=waitepark, Balance=0.00]
+Client[ID=C4, Name=Darpan Tamang, Address=Sauk rapids, Balance=0.00]
+Client[ID=C5, Name=Srijan Adhikari, Address=Texas, Balance=0.00]
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 3
+Enter Client ID: C3
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 6
+Fulfilled 3 of P1 for C3; charged 3.00
+Unfulfilled 3 of P1 for C3; added to waitlist
+Fulfilled 6 of P2 for C3; charged 12.00
+Fulfilled 6 of P5 for C3; charged 30.00
+Order processing complete for C3
+
+-- Client Menu (Client: C3) --
+1) Show client details
+2) Show list of products (with price)
+3) Show client transactions
+4) Add item to wishlist
+5) Display wishlist
+6) Place an order
+7) Logout
+Choice: 7 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: 1
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 4
+Clients with outstanding balance (> 0):
+  Client[ID=C2, Name=Matthew Mokoro, Address=Minneapolis, Balance=49.00]
+  Client[ID=C3, Name=chidubem okoyo, Address=waitepark, Balance=45.00]
+
+-- Clerk Menu --
+1) Add client
+2) Show products (qty & price)
+3) Show clients
+4) Show clients with outstanding balance
+5) Record payment
+6) Become a client
+7) Logout
+Choice: 7
+
+-- Opening/Login --
+1) Login as Clerk
+2) Login as Manager
+3) Login as Client (enter ClientID)
+Choice: ^Z
+zsh: suspended  java -cp .:WarehouseFSM WarehouseFSM
+[1m[7m%[27m[1m[0m                                                                                                                                                                                       
+ 
+
+[0m[27m[24m[Jsagarneupane@Mac project 2 part I % [K[?2004heexit[?2004l
+
+zsh: you have suspended jobs.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                       
+ 
+
+[0m[27m[24m[Jsagarneupane@Mac project 2 part I % [K[?2004h

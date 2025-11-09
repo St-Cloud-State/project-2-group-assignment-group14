@@ -1,0 +1,883 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251022221632
+Username: DESKTOP-BN0JU6K\matth
+RunAs User: DESKTOP-BN0JU6K\matth
+Configuration Name: 
+Machine: DESKTOP-BN0JU6K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\matth\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 2080
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is COMPLETEWareHouseTest.txt
+PS C:\Users\matth\OneDrive - MNSCU\Documents\FALL SEMESTER 2025-2026\CSCI 430-01\Group Work\Project 1\Final Implementation for Entire Project> java UserInterface
+=== Warehouse Full Version UI ===
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist       
+7. Place order for a client        
+8. Record payment for a client     
+9. Receive product shipment        
+10. Print a product's waitlist     
+11. Print client invoices
+0. Exit
+Choice: 1
+Enter client ID (e.g., C1): C1
+Enter client name: Client1
+Enter client address (optional): address1
+Created client C1
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist       
+7. Place order for a client        
+8. Record payment for a client     
+9. Receive product shipment        
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 1
+Enter client ID (e.g., C1): C2
+Enter client name: Client2
+Enter client address (optional): address2
+Created client C2
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 1
+Enter client ID (e.g., C1): C3
+Enter client name: Client3
+Enter client address (optional): address3
+Created client C3
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 1
+Enter client ID (e.g., C1): C4
+Enter client name: Client4
+Enter client address (optional): address4
+Created client C4
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 1
+Enter client ID (e.g., C1): C5
+Enter client name: Client5
+Enter client address (optional): address5
+Created client C5
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=0.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=0.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=0.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 3
+Enter product ID (e.g., P1): P1
+Enter product name: Product1
+Enter unit price: 1
+Enter quantity in stock: 10
+Created product P1
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 3
+Enter product ID (e.g., P1): P2
+Enter product name: Product2
+Enter unit price: 2
+Enter quantity in stock: 20
+Created product P2
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 3
+Enter product ID (e.g., P1): P3
+Enter product name: Product3
+Enter unit price: 3
+Enter quantity in stock: 30
+Created product P3
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 3
+Enter product ID (e.g., P1): P4
+Enter product name: Product4
+Enter unit price: 4
+Enter quantity in stock: 40
+Created product P4
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 3
+Enter product ID (e.g., P1): P5
+Enter product name: Product5
+Enter unit price: 5
+Enter quantity in stock: 50
+Created product P5
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 4
+All products:
+Product[ID=P1, Name=Product1, Price=1.00, Stock=10, Waitlist=0]
+Product[ID=P2, Name=Product2, Price=2.00, Stock=20, Waitlist=0]
+Product[ID=P3, Name=Product3, Price=3.00, Stock=30, Waitlist=0]
+Product[ID=P4, Name=Product4, Price=4.00, Stock=40, Waitlist=0]
+Product[ID=P5, Name=Product5, Price=5.00, Stock=50, Waitlist=0]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C1
+Enter product ID: P1
+Enter quantity: 5
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C1
+Enter product ID: P3
+Enter quantity: 5
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C1
+Enter product ID: P5
+Enter quantity: 5
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C1
+Wishlist for Client1:
+  WishlistItem[Product=P1, Qty=5]
+  WishlistItem[Product=P3, Qty=5]
+  WishlistItem[Product=P5, Qty=5]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C2
+Enter product ID: P1
+Enter quantity: 7
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C2
+Enter product ID: P2
+Enter quantity: 7
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C2
+Enter product ID: P4
+Enter quantity: 7
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C2
+Wishlist for Client2:
+  WishlistItem[Product=P1, Qty=7]
+  WishlistItem[Product=P2, Qty=7]
+  WishlistItem[Product=P4, Qty=7]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C3
+Enter product ID: P1
+Enter quantity: 6
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C3
+Enter product ID: P2
+Enter quantity: 6
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 5
+Enter client ID: C3
+Enter product ID: P5
+Enter quantity: 6
+Added to wishlist.
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C3
+Wishlist for Client3:
+  WishlistItem[Product=P1, Qty=6]
+  WishlistItem[Product=P2, Qty=6]
+  WishlistItem[Product=P5, Qty=6]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 7
+Enter client ID: C2
+Fulfilled 7 of P1 for C2; charged 7.00
+Fulfilled 7 of P2 for C2; charged 14.00
+Fulfilled 7 of P4 for C2; charged 28.00
+Order processing complete for C2
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=0.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=49.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=0.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 7
+Enter client ID: C3
+Fulfilled 3 of P1 for C3; charged 3.00
+Unfulfilled 3 of P1 for C3; added to waitlist
+Fulfilled 6 of P2 for C3; charged 12.00
+Fulfilled 6 of P5 for C3; charged 30.00
+Order processing complete for C3
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=0.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=49.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=45.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C2
+Wishlist for Client2:
+  (none)
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C3
+Wishlist for Client3:
+  (none)
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 10
+Enter product ID: P1
+Waitlist for product P1:
+  WaitlistEntry[Client=C3, Qty=3]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 10
+Enter product ID: P2
+Waitlist for product P2:
+  (none)
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 7
+Enter client ID: C1
+Unfulfilled 5 of P1 for C1; added to waitlist
+Fulfilled 5 of P3 for C1; charged 15.00
+Fulfilled 5 of P5 for C1; charged 25.00
+Order processing complete for C1
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=40.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=49.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=45.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 6
+Enter client ID: C1
+Wishlist for Client1:
+  (none)
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 8
+Enter client ID: C1
+Enter payment amount: 100
+Recorded payment of 100.00 for C1
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 8
+Enter client ID: C2
+Enter payment amount: 100
+Recorded payment of 100.00 for C2
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=-60.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=-51.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=45.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 9
+Enter product ID: P1
+Enter shipment quantity: 100
+Shipment processed; invoices generated for waitlist fills:
+  - Invoice[ID=I9, Client=C3, Product=P1, Qty=3, Amount=3.00] (client debited)
+  - Invoice[ID=I10, Client=C1, Product=P1, Qty=5, Amount=5.00] (client debited)
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 4
+All products:
+Product[ID=P1, Name=Product1, Price=1.00, Stock=92, Waitlist=0]
+Product[ID=P2, Name=Product2, Price=2.00, Stock=7, Waitlist=0]
+Product[ID=P3, Name=Product3, Price=3.00, Stock=25, Waitlist=0]
+Product[ID=P4, Name=Product4, Price=4.00, Stock=33, Waitlist=0]
+Product[ID=P5, Name=Product5, Price=5.00, Stock=39, Waitlist=0]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 2
+All clients:
+Client[ID=C1, Name=Client1, Address=address1, Balance=-55.00]
+Client[ID=C2, Name=Client2, Address=address2, Balance=-51.00]
+Client[ID=C3, Name=Client3, Address=address3, Balance=48.00]
+Client[ID=C4, Name=Client4, Address=address4, Balance=0.00]
+Client[ID=C5, Name=Client5, Address=address5, Balance=0.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 11
+Enter client ID: C1
+Invoices for C1:
+  Invoice[ID=I7, Client=C1, Product=P3, Qty=5, Amount=15.00]
+  Invoice[ID=I8, Client=C1, Product=P5, Qty=5, Amount=25.00]
+  Invoice[ID=I10, Client=C1, Product=P1, Qty=5, Amount=5.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 11
+Enter client ID: C2
+Invoices for C2:
+  Invoice[ID=I1, Client=C2, Product=P1, Qty=7, Amount=7.00]
+  Invoice[ID=I2, Client=C2, Product=P2, Qty=7, Amount=14.00]
+  Invoice[ID=I3, Client=C2, Product=P4, Qty=7, Amount=28.00]
+
+--- MENU ---
+1. Create client
+2. Display all clients
+3. Create product
+4. Display all products
+5. Add product to client's wishlist
+6. Print a client's wishlist
+7. Place order for a client
+8. Record payment for a client
+9. Receive product shipment
+10. Print a product's waitlist
+11. Print client invoices
+0. Exit
+Choice: 0
+Exiting UI.
+PS C:\Users\matth\OneDrive - MNSCU\Documents\FALL SEMESTER 2025-2026\CSCI 430-01\Group Work\Project 1\Final Implementation for Entire Project> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20251022222803
+**********************
